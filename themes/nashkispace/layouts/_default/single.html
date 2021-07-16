@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="flex-parent">
+<h1>{{ .Title }}</h1>
+<p>{{ .Content }}</p>
+</div>
+
+<style>
+    .flex-parent 
+      {
+        width: 60%;
+        margin: 100px auto;
+        
+        font-family: 'Quicksand', sans-serif;
+      }
+      h1 {
+
+      }
+      p {
+        font-size: 20px;
+      }
+  </style>
+{{ end }}

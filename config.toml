@@ -1,7 +1,4 @@
-baseURL = "https://ikhsannhuda.web.app/"
+baseURL = "https://nashki.me/"
 languageCode = "en-us"
-title = "Ikhsan N. Huda"
-[permalinks]
-    blog       = ":slug"
-    books      = ":slug"
-    eksperimen = ":slug"
+title = "Ikhsan Nur Huda - Personal Site"
+theme = "nashkispace"

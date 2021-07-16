@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="main">
+   <ul>
+         {{ range .Pages }}
+      <li>
+      <a href="{{.Permalink}}"> {{ .Title }}</a>    
+      </li>
+            {{ end }}
+   </ul>
+</div>
+
+<style>
+   .main 
+     {
+       font-size: 25px;
+       margin: 100px auto;
+       width: fit-content;
+       font-family: 'Quicksand', sans-serif;
+     }
+     a
+     {
+      color: black;
+     }
+</style>
+{{ end }}
